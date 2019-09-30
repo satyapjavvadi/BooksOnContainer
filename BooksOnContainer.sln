@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A88ED5E6-DD56-4108-A895-CDAAD72EC780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{CDEDCCC6-49CB-41DD-B986-D94A1B18836A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{C8F91940-4479-470C-AAEC-E7ABAAB48CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookCatalogAPI", "BookCatalogAPI\BookCatalogAPI.csproj", "{6E6C8A62-CC7F-40CE-BBB2-3D6F56C4BDAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E6C8A62-CC7F-40CE-BBB2-3D6F56C4BDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6C8A62-CC7F-40CE-BBB2-3D6F56C4BDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6C8A62-CC7F-40CE-BBB2-3D6F56C4BDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6C8A62-CC7F-40CE-BBB2-3D6F56C4BDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDEDCCC6-49CB-41DD-B986-D94A1B18836A} = {A88ED5E6-DD56-4108-A895-CDAAD72EC780}
+		{C8F91940-4479-470C-AAEC-E7ABAAB48CCF} = {A88ED5E6-DD56-4108-A895-CDAAD72EC780}
+		{6E6C8A62-CC7F-40CE-BBB2-3D6F56C4BDAF} = {CDEDCCC6-49CB-41DD-B986-D94A1B18836A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F558BACD-4D6E-44D0-92CB-60A9B8FD8A4A}
+	EndGlobalSection
+EndGlobal
