@@ -14,9 +14,12 @@ namespace BookCatalogAPI.Domain
         public decimal Price { get; set; }
         public string ISBN { get; set; }
         public string PublishedDate { get; set; }
-        public int CategoryId { get; set; }
+        public int BookCategoryId { get; set; }
         public virtual BookCategory BookCategory { get; set; }
-        public int AuthorId { get; set; }
+        public int BookAuthorId { get; set; }
         public virtual BookAuthor BookAuthor { get; set; }
+        public int BookStockId { get; set; }
+        public virtual BookStock BookStock { get; set; }
+
     }
 }
